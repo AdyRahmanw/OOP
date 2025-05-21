@@ -5,7 +5,12 @@ class Karakter:
     
     def Menembak(self):
         print(f"{self.Nama} menembak dor dor dor")
+    
+    def Menyapa(self):
+        print(f"{self.Nama} mengucapkan halo")
+        
         
 Reyna = Karakter("Reyna","Duelist")
-Karakter.Menembak(Reyna)
-    
+
+Reyna.Menembak()
+Reyna.Menyapa()
